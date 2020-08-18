@@ -1,0 +1,210 @@
+html, body {
+    margin: 0;
+    width: auto;
+    height: 100%;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 980px; */
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 5px;
+    font-size: 13px;
+}
+#gmail:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#images:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#googleApps {
+    opacity: 55%;
+}
+#googleApps:hover {
+    opacity: 100%;
+}
+
+#signIn {
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+    background: #4387fd;
+    color: white;
+    font-weight: bold;
+    padding: 7px 12px;
+    font-family: arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50%;
+}
+
+#google-logo {
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+#magGlass {
+    display: flex;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin: 13px 15px;
+    opacity: 50%;
+}
+
+#search-bar {
+    width: 400px;
+    border-radius: 20px;
+    border-style: none;
+    height: 35px;
+    padding: 5px 50px;
+    border: 1px solid #dfe1e5;
+    background: white;
+}
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#button-layout {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding: 5px 50px;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+    line-height: 27px;
+    text-align: center;
+    min-width: 54px;
+}
+.buttons:hover {
+    cursor: pointer;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+}
+
+#language {
+    display: inline-block;
+    line-height: 28px;
+    font-size: small;
+    font-family: arial, sans-serif;
+}
+
+#langEnglish {
+    display: inline-block;
+    cursor: pointer;
+    color: blue;
+}
+#langEnglish:hover {
+    text-decoration: underline;
+}
+
+#footerNavbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    min-width: 980px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #5f6368;
+}
+
+#japan {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap; */
+    /* float: left; */
+    padding: 10px 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#bottomItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftSide {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
+    width: 365px;
+}
+#ls1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+#ls2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#ls3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#ls4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#rightSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 0px 10px;
+    width: 200px;
+}
+#rs1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#rs2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#rs3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
